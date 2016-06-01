@@ -3,17 +3,17 @@ Sample ASP application on Linux using Mono
 
 Usage: This instruction assumes you have docker installed and working
 
-###### clone repo
+###### Clone repo
 git clone https://github.com/Tosyn/aspMono.git
 
-###### create docker image
+###### Create docker image
 cd aspMono
 docker build -t aspapp .
 
-###### start application
+###### Start application
 docker-compose up
 
-###### update host machine etc host file : add text below
+###### Update host machine etc host file : add text below
 asp.dev
 
 ##### Click link below to view in browser
